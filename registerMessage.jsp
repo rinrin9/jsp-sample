@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%
-session.setMaxInactiveInterval(120);
+session.setMaxInactiveInterval(180);
 String logout = (String)request.getParameter("logout");
 String message = null;
 if (logout != null && logout.equals("true")) {
